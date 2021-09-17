@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(72 177 235 / 59%);
+}
+
+.bg-azul-empresa {
+    background-color: rgba(88,147,208,1);
+}
+
+.bg-verde {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    background-color: #0fa898;
+}
+
+.bg-gambiarra {
+    background-color: #0fa89900;
+}
+
+.card-imagem {
+    margin-top: -50px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    width: 250px;
+    height: 250px;
+    backdrop-filter: drop-shadow(2px 4px 6px rgb(0, 0, 0));
+    cursor: pointer;
+}
+
+.divisoria {
+    width:100%;
+    height: 5px;
+    background-color: rgb(87 165 200);
+}
+
+.card-preco {
+    margin-top: 40px;
+    width:350px;
+    height:450px;
+    background-color: #0fa898;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.card-preco:hover {
+    margin-top: 10px;
+}
+
+#rodape {
+    padding: 5px;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    background-color: rgba(88,147,208,1);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#rodape a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.internet-plano {
+    border-radius: 15px;
+    border-color: #fff;
+    border-style: solid;
+}
+
+.internet-plano img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-areas {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 250px;
+    background-color: #0fa898;
+    transition: all 0.2s;
+    cursor: pointer;
+    
+}
+
+.card-areas:hover {
+    transform:scale(0.9);
+}
+
+.imagem-area {
+    display:flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.imagem-area img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
